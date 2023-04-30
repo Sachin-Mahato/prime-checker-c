@@ -7,16 +7,15 @@ int main(void)
 {
     int min;
     int max;
+    // get input from user
     do
     {
         printf("Please enter a number: ");
         scanf("%d", &min);
-
     } while (min < 1);
 
     do
     {
-
         printf("Please enter a number: ");
         scanf("%d", &max);
     } while (min >= max);
@@ -30,6 +29,7 @@ int main(void)
     }
 }
 
+// cheks if the number is prime
 bool isprime(int x)
 {
     if (x < 2)
